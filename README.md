@@ -1,26 +1,52 @@
 # 📈 Python Sales Analysis
 
-Proyecto de análisis de ventas utilizando Python.
+Proyecto de análisis de ventas desarrollado con Python para procesar datos almacenados en un archivo CSV y generar métricas comerciales.
 
 ## 🎯 Objetivo
 
-Analizar datos de ventas almacenados en un archivo CSV para obtener métricas comerciales relevantes.
+Analizar datos de ventas para identificar productos más vendidos, clientes con mayor gasto y métricas generales de negocio.
 
 ## 📂 Dataset
 
-El archivo `ventas.csv` contiene información sobre:
+El archivo `ventas.csv` contiene la siguiente información:
 
 - Cliente
 - Producto
 - Cantidad
 - Precio
 
-## 📊 Métricas Analizadas
+## 📊 Resultados Obtenidos
 
-- Ventas totales
-- Productos más vendidos
-- Gasto por cliente
-- Cliente con mayor gasto
+### Ventas Totales
+
+```text
+2875.0
+```
+
+### Productos Más Vendidos
+
+| Producto | Unidades Vendidas |
+|-----------|------------------:|
+| Mouse | 5 |
+| Notebook | 2 |
+| Teclado | 1 |
+| Monitor | 1 |
+
+### Gasto por Cliente
+
+| Cliente | Gasto |
+|----------|----------:|
+| Juan | 1250.0 |
+| Carlos | 1200.0 |
+| Ana | 300.0 |
+| Pedro | 75.0 |
+| Maria | 50.0 |
+
+### Cliente con Mayor Gasto
+
+```text
+Juan - 1250.0
+```
 
 ## 🧠 Habilidades Demostradas
 
@@ -28,6 +54,7 @@ El archivo `ventas.csv` contiene información sobre:
 - Procesamiento de datos con Python
 - Uso de diccionarios
 - Bucles y estructuras de control
+- Cálculos y agregaciones
 - Análisis básico de datos
 
 ## 💻 Tecnologías
@@ -36,6 +63,15 @@ El archivo `ventas.csv` contiene información sobre:
 - CSV
 - Visual Studio Code
 - GitHub
+
+## 📁 Archivos del Proyecto
+
+```text
+python-sales-analysis
+├── analisis.py
+├── ventas.csv
+└── README.md
+```
 
 ## 👨‍💻 Autor
 
