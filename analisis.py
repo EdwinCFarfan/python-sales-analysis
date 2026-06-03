@@ -29,7 +29,7 @@ with open("ventas.csv", "r") as archivo:
             clientes[cliente] = total
 
 print("VENTAS TOTALES")
-print(ventas_totales)
+print(f"${ventas_totales:.2f}")
 
 print("\nPRODUCTOS MÁS VENDIDOS")
 
@@ -38,7 +38,7 @@ for producto, cantidad in sorted(productos.items(), key=lambda x: x[1], reverse=
 
 print("\nGASTO POR CLIENTE")
 
-for cliente, gasto in clientes.items():
+for cliente, gasto in sorted(clientes.items(), key=lambda x: x[1], reverse=True):
     print(cliente, gasto)
 
 cliente_top = max(clientes, key=clientes.get)
